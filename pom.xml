@@ -1,0 +1,22 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <name>Program for determine Jiles-Atherton</name>
+
+    <groupId>ru.spbu.phys</groupId>
+    <artifactId>jiles</artifactId>
+    <version>0.0.1</version>
+
+    <dependencies>
+        <dependency>
+            <groupId>net.sf.jgap</groupId>
+            <artifactId>jgap</artifactId>
+            <version>3.4.4</version>
+        </dependency>
+        <dependency>
+            <artifactId>..</artifactId>
+            <groupId>..</groupId>
+            <scope>system</scope>
+            <systemPath>${basedir}/lib/jswarm-pso_2_08.jar</systemPath>
+        </dependency>
+    </dependencies>
+</project>
